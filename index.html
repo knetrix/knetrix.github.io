@@ -515,7 +515,6 @@
         }
       }
 
-      /* About now sits directly below the hero introduction. */
       .hero-copy .about-layout {
         display: block;
         margin-top: 34px;
@@ -542,7 +541,6 @@
         justify-content: center;
       }
 
-      /* Revised hero: identity and emblem side-by-side, with centered About below. */
       .hero {
         min-height: unset;
         grid-template-columns: minmax(0, 1fr) minmax(300px, 0.82fr);
@@ -561,12 +559,7 @@
       .hero-visual .hero-art {
         width: min(100%, 440px);
       }
-      
-      
-      
-      
-      
-      
+
       .jumpnav {
         justify-content: center;
         align-items: center;
@@ -589,7 +582,7 @@
         .hero-visual .hero-art {
           width: min(72vw, 260px);
         }
-        
+
         .jumpnav {
           gap: 8px;
           padding: 14px 0 18px;
@@ -606,62 +599,31 @@
         }
       }
 
-      /* About body copy: quiet weight and the same solid surface as the other content cards. */
-      
-      
-
-      /* About: quiet, editorial text treatment without a card surface. */
-      
-      
-      
-      
-      
-      
-      
-      
-
-      /* Align About with the shared left edge of the main content sections. */
-      
-      
-
-      /* Tighten the vertical rhythm around the hero and About section. */
       .hero {
         min-height: unset;
         padding-top: 30px;
         padding-bottom: 10px;
         gap: clamp(24px, 4vw, 60px);
       }
-      
+
       @media (max-width: 760px) {
         .hero {
           gap: 12px;
           padding-top: 22px;
           padding-bottom: 4px;
         }
-        
       }
 
-      /* Restore the site’s original sans-serif typography in About. */
-      
-
-      /* Justify project descriptions while preserving card layout. */
       #projects .project-body p {
         text-align: justify;
         text-justify: inter-word;
       }
 
-      /* Justify skill description copy, not headings. */
-      
-
       #skills .skill-grid p {
         text-align: justify;
         text-justify: inter-word;
       }
-    
-      /* Justify Experience job descriptions only; leave headings and content unchanged. */
-      
-    
-      /* Experience uses the same surface, outline and elevation as project cards. */
+
       #experience .experience-card {
         background: var(--surface);
         border: 1px solid var(--line);
@@ -669,13 +631,17 @@
         box-shadow: var(--shadow);
         padding: 36px clamp(24px, 4vw, 48px);
       }
-      #experience .job { max-width: none; }
+      #experience .job {
+        max-width: none;
+      }
       #experience .experience-card .job p {
         text-align: justify;
         text-justify: inter-word;
       }
       @media (max-width: 760px) {
-        #experience .experience-card { padding: 24px 18px; }
+        #experience .experience-card {
+          padding: 24px 18px;
+        }
       }
     </style>
     <link href="/assets/images/favicon.png" rel="icon" type="image/png" />
@@ -774,9 +740,7 @@
             </p>
           </article>
           <article class="skill">
-            <p data-i="12">
-              Computer Networks: Cisco (CCNA), GNS3, Wireshark
-            </p>
+            <p data-i="12">Computer Networks: Cisco (CCNA), GNS3, Wireshark</p>
           </article>
           <article class="skill">
             <p data-i="13">Programming Languages: Python, C++</p>
@@ -788,9 +752,7 @@
             </p>
           </article>
           <article class="skill">
-            <p data-i="15">
-              Version Control System (VCS): Git, Github
-            </p>
+            <p data-i="15">Version Control System (VCS): Git, Github</p>
           </article>
           <article class="skill">
             <p data-i="16">Linux: Diet-Pi, Ubuntu Server</p>
@@ -894,45 +856,43 @@
           <h2 data-i="27">Experience</h2>
         </div>
         <div class="experience-card">
-<div class="timeline">
-          <article class="job">
-            <h3 data-i="28">
-              Independent Developer 08/2023 – Present
-            </h3>
-          </article>
-          <article class="job">
-            <h3 data-i="29">
-              National Defence University - Naval Academy, Lecturer (Military
-              Service) 10/2022 – 08/2023 | Istanbul
-            </h3>
-            <p data-i="30">
-              Delivered lecture courses in C++, Python, Computer Networks, and
-              Data Mining to undergraduate cadets.
-            </p>
-          </article>
-          <article class="job">
-            <h3 data-i="31">
-              Duzce University, Software Intern - 06/2021 – 07/2021
-            </h3>
-            <p data-i="32">
-              Engineered a machine learning model in Python for digit
-              recognition, successfully training and validating it using the
-              MNIST dataset. Built an interactive web interface with Gradio,
-              enabling real-time digit prediction from hand-drawn input.
-            </p>
-          </article>
-          <article class="job">
-            <h3 data-i="34">
-              IGDAS, Software Intern 07/2018 – 08/2018 | Istanbul
-            </h3>
-            <p data-i="35">
-              Received training on SAP systems and IT processes. Developed basic
-              database integrations and applications with C#.
-            </p>
-          </article>
+          <div class="timeline">
+            <article class="job">
+              <h3 data-i="28">Independent Developer 08/2023 – Present</h3>
+            </article>
+            <article class="job">
+              <h3 data-i="29">
+                National Defence University - Naval Academy, Lecturer (Military
+                Service) 10/2022 – 08/2023 | Istanbul
+              </h3>
+              <p data-i="30">
+                Delivered lecture courses in C++, Python, Computer Networks, and
+                Data Mining to undergraduate cadets.
+              </p>
+            </article>
+            <article class="job">
+              <h3 data-i="31">
+                Duzce University, Software Intern - 06/2021 – 07/2021
+              </h3>
+              <p data-i="32">
+                Engineered a machine learning model in Python for digit
+                recognition, successfully training and validating it using the
+                MNIST dataset. Built an interactive web interface with Gradio,
+                enabling real-time digit prediction from hand-drawn input.
+              </p>
+            </article>
+            <article class="job">
+              <h3 data-i="34">
+                IGDAS, Software Intern 07/2018 – 08/2018 | Istanbul
+              </h3>
+              <p data-i="35">
+                Received training on SAP systems and IT processes. Developed
+                basic database integrations and applications with C#.
+              </p>
+            </article>
+          </div>
         </div>
-</div>
-</section>
+      </section>
       <section class="content" id="languages">
         <div class="section-title">
           <h2 data-i="37">Foreign Languages</h2>
