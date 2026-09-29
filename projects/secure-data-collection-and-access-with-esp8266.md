@@ -81,7 +81,7 @@ I Used Homer For Easy Access To The Web Interface Of These Services I Created (I
 ## ESP8266 Code
 
 
-```text
+```c++
 #include <Arduino.h>
 #include <ESP8266WiFi.h>
 #include <MQTTClient.h>
@@ -246,7 +246,7 @@ void handleSerialCommand(String command)
 
 - Code
 
-```text
+```python
 from aesdecrypt import decryptCipher
 from influxdb_client_3 import InfluxDBClient3
 import pandas as pd
