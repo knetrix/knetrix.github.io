@@ -774,6 +774,23 @@
     
       /* Justify Experience job descriptions only; leave headings and content unchanged. */
       #experience .timeline .job p { text-align: justify; text-justify: inter-word; }
+    
+      /* Experience uses the same surface, outline and elevation as project cards. */
+      #experience .experience-card {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        box-shadow: var(--shadow);
+        padding: 36px clamp(24px, 4vw, 48px);
+      }
+      #experience .job { max-width: none; }
+      #experience .experience-card .job p {
+        text-align: justify;
+        text-justify: inter-word;
+      }
+      @media (max-width: 760px) {
+        #experience .experience-card { padding: 24px 18px; }
+      }
     </style>
     <link href="/assets/images/favicon.png" rel="icon" type="image/png" />
   </head>
@@ -990,7 +1007,8 @@
         <div class="section-title">
           <h2 class="" data-i="27">Experience</h2>
         </div>
-        <div class="timeline">
+        <div class="experience-card">
+<div class="timeline">
           <article class="job">
             <h3 class="" data-i="28">
               Independent Developer 08/2023 – Present
@@ -1027,7 +1045,8 @@
             </p>
           </article>
         </div>
-      </section>
+</div>
+</section>
       <section class="content" id="languages">
         <div class="section-title">
           <h2 class="" data-i="37">Foreign Languages</h2>
