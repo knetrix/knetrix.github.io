@@ -3,7 +3,7 @@ layout: project
 title: Physical Security System With ESP32
 permalink: /projects/physical-security-system-with-esp32/
 ---
-Physical Security System With ESP32
+# Physical Security System With ESP32
 
 ## Hardware Used
 
