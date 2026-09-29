@@ -86,7 +86,7 @@ I Used Homer For Easy Access To The Web Interface Of These Services I Created (I
 ## ESP32 Code
 
 
-```text
+```c++
 #include <WiFi.h>
 #include <DHT.h>
 #include <Servo.h>
