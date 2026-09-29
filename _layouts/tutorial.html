@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="tutorial-content">
+  <header class="course-header">
+    <p class="course-status">{{ page.course | upcase }} · Lesson {{ page.order }}</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.excerpt %}<p>{{ page.excerpt }}</p>{% endif %}
+  </header>
+  {{ content }}
+  {% assign lessons = site.tutorials | where: "course", page.course | sort: "order" %}
+  {% assign current_index = false %}{% for lesson in lessons %}{% if lesson.url == page.url %}{% assign current_index = forloop.index0 %}{% endif %}{% endfor %}
+  {% if current_index != false %}{% assign previous_index = current_index | minus: 1 %}{% assign next_index = current_index | plus: 1 %}<nav class="lesson-nav" aria-label="Lesson navigation">{% if current_index > 0 %}{% assign previous = lessons[previous_index] %}<a href="{{ previous.url | relative_url }}">← {{ previous.title }}</a>{% endif %}{% if next_index < lessons.size %}{% assign next = lessons[next_index] %}<a class="next" href="{{ next.url | relative_url }}">{{ next.title }} →</a>{% endif %}</nav>{% endif %}
+</article>
