@@ -36,15 +36,15 @@ First Of All, Sensors and Tools Had To Be Connected With ESP32 On The Breadboard
 
 
 
-![]({{ "/assets/images/esp32-image-01.jpg" | relative_url }})
+![]({{ "/assets/images/projects/physical-security-system-with-esp32/image-01.jpg" | relative_url }})
 
 
 
-![]({{ "/assets/images/esp32-image-02.jpg" | relative_url }})
+![]({{ "/assets/images/projects/physical-security-system-with-esp32/image-02.jpg" | relative_url }})
 
 
 
-![]({{ "/assets/images/esp32-image-03.jpg" | relative_url }})
+![]({{ "/assets/images/projects/physical-security-system-with-esp32/image-03.jpg" | relative_url }})
 
 
 
@@ -71,7 +71,7 @@ I Installed My Services In These Containers I created and I Also Assigned Static
 
 
 
-![]({{ "/assets/images/esp32-image-04.png" | relative_url }})
+![]({{ "/assets/images/projects/physical-security-system-with-esp32/image-04.png" | relative_url }})
 
 
 
@@ -79,7 +79,7 @@ I Used Homer For Easy Access To The Web Interface Of These Services I Created (I
 
 
 
-![]({{ "/assets/images/esp32-image-05.png" | relative_url }})
+![]({{ "/assets/images/projects/physical-security-system-with-esp32/image-05.png" | relative_url }})
 
 
 
@@ -341,7 +341,7 @@ void beep(int delayms)
 
 
 
-![]({{ "/assets/images/esp32-image-06.png" | relative_url }})
+![]({{ "/assets/images/projects/physical-security-system-with-esp32/image-06.png" | relative_url }})
 
 
 
@@ -349,7 +349,7 @@ void beep(int delayms)
 
 
 
-![]({{ "/assets/images/esp32-image-07.jpg" | relative_url }})
+![]({{ "/assets/images/projects/physical-security-system-with-esp32/image-07.jpg" | relative_url }})
 
 
 
@@ -357,7 +357,7 @@ void beep(int delayms)
 
 
 
-![]({{ "/assets/images/esp32-image-08.png" | relative_url }})
+![]({{ "/assets/images/projects/physical-security-system-with-esp32/image-08.png" | relative_url }})
 
 
 
@@ -365,7 +365,7 @@ void beep(int delayms)
 
 
 
-![]({{ "/assets/images/esp32-image-09.png" | relative_url }})
+![]({{ "/assets/images/projects/physical-security-system-with-esp32/image-09.png" | relative_url }})
 
 
 
@@ -373,5 +373,5 @@ void beep(int delayms)
 
 
 
-![]({{ "/assets/images/esp32-image-10.png" | relative_url }})
+![]({{ "/assets/images/projects/physical-security-system-with-esp32/image-10.png" | relative_url }})
 

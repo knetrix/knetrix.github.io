@@ -39,7 +39,7 @@ Sensor and Tools Were Connected To ESP8266 On Breadboard.
 
 
 
-![]({{ "/assets/images/esp8266-image-01.jpg" | relative_url }})
+![]({{ "/assets/images/projects/secure-data-collection-and-access-with-esp8266/image-01.jpg" | relative_url }})
 
 
 
@@ -66,7 +66,7 @@ I Installed My Services In These Containers I created and I Also Assigned Static
 
 
 
-![]({{ "/assets/images/esp8266-image-02.png" | relative_url }})
+![]({{ "/assets/images/projects/secure-data-collection-and-access-with-esp8266/image-02.png" | relative_url }})
 
 
 
@@ -74,7 +74,7 @@ I Used Homer For Easy Access To The Web Interface Of These Services I Created (I
 
 
 
-![]({{ "/assets/images/esp8266-image-03.jpg" | relative_url }})
+![]({{ "/assets/images/projects/secure-data-collection-and-access-with-esp8266/image-03.jpg" | relative_url }})
 
 
 
@@ -219,7 +219,7 @@ void handleSerialCommand(String command)
 
 
 
-![]({{ "/assets/images/esp8266-image-04.jpg" | relative_url }})
+![]({{ "/assets/images/projects/secure-data-collection-and-access-with-esp8266/image-04.jpg" | relative_url }})
 
 
 
@@ -227,7 +227,7 @@ void handleSerialCommand(String command)
 
 
 
-![]({{ "/assets/images/esp8266-image-05.jpg" | relative_url }})
+![]({{ "/assets/images/projects/secure-data-collection-and-access-with-esp8266/image-05.jpg" | relative_url }})
 
 
 
@@ -235,7 +235,7 @@ void handleSerialCommand(String command)
 
 
 
-![]({{ "/assets/images/esp8266-image-06.jpg" | relative_url }})
+![]({{ "/assets/images/projects/secure-data-collection-and-access-with-esp8266/image-06.jpg" | relative_url }})
 
 
 
@@ -356,17 +356,17 @@ token = "[REDACTED]"
 - Example Python Program Output
 
 
-![]({{ "/assets/images/esp8266-image-07.jpg" | relative_url }})
+![]({{ "/assets/images/projects/secure-data-collection-and-access-with-esp8266/image-07.jpg" | relative_url }})
 
 
 - Example Encrypted CSV File (Data Retrieved From Database)
 
 
-![]({{ "/assets/images/esp8266-image-08.jpg" | relative_url }})
+![]({{ "/assets/images/projects/secure-data-collection-and-access-with-esp8266/image-08.jpg" | relative_url }})
 
 
 - Example Decrypted CSV File
 
 
-![]({{ "/assets/images/esp8266-image-09.png" | relative_url }})
+![]({{ "/assets/images/projects/secure-data-collection-and-access-with-esp8266/image-09.png" | relative_url }})
 
