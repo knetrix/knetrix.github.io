@@ -1,0 +1,5 @@
+title: Knetrix
+url: "https://knetrix.github.io"
+baseurl: ""
+markdown: kramdown
+permalink: pretty
