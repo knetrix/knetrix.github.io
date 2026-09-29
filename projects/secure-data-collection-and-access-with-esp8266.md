@@ -3,7 +3,7 @@ layout: project
 title: Secure Data Collection and Access With ESP8266
 permalink: /projects/secure-data-collection-and-access-with-esp8266/
 ---
-Secure Data Collection and Access With ESP8266
+# Secure Data Collection and Access With ESP8266
 
 ## Hardware Used
 
