@@ -16,7 +16,7 @@ Yazı İçeriği
 
 Bu Yazıda Modern Ağlarda Kullanılan Cihaz Türleri, Ağdaki İşlevleri ve Farklılıkları Hakkında Bilgi Edineceğiz.
 
-### Network Nedir?
+## Network Nedir?
 
 Network'ün Wikipedia'daki Tanımına Bakalım:
 
@@ -24,7 +24,7 @@ Network'ün Wikipedia'daki Tanımına Bakalım:
 
 **Bir Bilgisayar Ağı, Düğümlerin Kaynaklarını Paylaşmasına İzin Veren Bir Dijital Telekomünikasyon Ağıdır.**
 
-#### Düğüm (Node) Nedir?
+### Düğüm (Node) Nedir?
 
 ![Bilgisayar Ağlarında Düğüm Nedir? (What is Node in Computer Network?)]({{ '/assets/images/tutorials/ccna/day-01/image-01.jpg' | relative_url }})
 
@@ -32,11 +32,11 @@ Router, Switch, Firewall, Server, Client, vb.
 
 Şimdi En Basit Haliyle Bir Network Kuralım. Client ve Server'ın Tanımlarını Yapalım.
 
-#### Client
+### Client
 
 Server Tarafından Sağlanan Bir Hizmete Erişen Cihazdır.
 
-#### Server
+### Server
 
 Client için Fonksiyonlar veya Hizmetler Sağlayan Cihazdır.
 
@@ -56,7 +56,7 @@ Burada Önceki Network Örneğinden Farklı Olarak Bilgisayarımız ile YouTube 
 
 **Önemli Bilgi:** Aynı Cihaz Bazı Durumlarda Client, Bazı Durumlarda Server Olabilir.
 
-### Switch
+## Switch
 
 - Hostların Bağlanabileceği Çok Sayıda Porta Sahiptir (Genellikle +24).
 - Aynı LAN (Local Area Network) İçindeki Hostlar Arasında Bağlantı Sağlar.
@@ -78,7 +78,7 @@ Bazı Cisco Switch Modelleri:
 
 Cisco Catalyst 9200, Cisco Catalyst 3650, Cisco Catalyst 2960, ...
 
-### Router
+## Router
 
 - Switch'den Daha Az Porta Sahiptir.
 - LAN'lar Arasında Bağlantı Sağlamak için Kullanılır.
@@ -94,7 +94,7 @@ Bazı Cisco Router Modelleri:
 
 ![Örnek Cisco Router Modelleri (Example Cisco Router Models)]({{ '/assets/images/tutorials/ccna/day-01/image-07.jpg' | relative_url }})
 
-### Firewall
+## Firewall
 
 Firewall, Network'e Giren ve Çıkan Trafiği Kontrol Eden Özel Güvenlik Cihazlarıdır.
 

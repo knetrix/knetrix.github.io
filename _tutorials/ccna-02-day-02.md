@@ -19,7 +19,7 @@ Yazı İçeriği
 
 Bu Yazıda Cihazları Birbirine Bağlamak için Kullanılan Portlar ve Kablo Türleri Hakkında Bilgi Edineceğiz.
 
-### RJ45
+## RJ45
 
 İlk Olarak Switch Cihazının Portlarını İnceleyelim.
 
@@ -37,13 +37,13 @@ RJ-45 Konnektörüne Bakalım.
 
 RJ-45 Konnektörü, Bakır Ethernet Kablosunun Uçlarında Kullanılır.
 
-### Ethernet
+## Ethernet
 
 **Ethernet,** Genellikle Yerel Alan Ağlarındaki (LAN) Cihazları Birbirine Bağlamak için Kullanılan Standart Bir İletişim Protokolüdür.
 
 Bu Yazıda Ethernet Protokolünde Tanımlanan Kablolama Türlerine Odaklanacağız.
 
-#### Bit/Byte
+### Bit/Byte
 
 [![bit byte dönüşümü]({{ '/assets/images/tutorials/ccna/day-02/image-04.jpg' | relative_url }})](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5DZJjHDvXJg3AJ0WPHvtoWkLX9vMCX35vtMuoNgyyIY0Xa5fA7vJwnoj7I7o5HkKCFLUZDbB-yi6-XYkg7nmw6Lhj4Q9cTR3oVtGW_rBCbV5OG1JOLpaj2uGMrTDvgzejcaIabupxaxc91NBh1_dfMp0ZNk3pMblVYXeS1rACgv_a7syygGQkAzeDNw/s464/bit-byte-donusumu.jpg)
 
@@ -53,14 +53,14 @@ Ağdaki Cihazlar Arasındaki Bağlantılar Belirli Bir Hızda Çalışır.
 
 [![ağ hız birimleri bit per second]({{ '/assets/images/tutorials/ccna/day-02/image-05.jpg' | relative_url }})](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgndXcURF7i7w7QGhQYrSQVZrWsIuCwUQJFwUlajEyU6dNTXN7hrNHWKPxzAk1_04afnvG2QTJh7JoMCMUzIQiZffHpH63sUYJFG7jAjZzcKg2hz9ruJzvrIHgcv-P3Vz9bCh2xaz4HCeIpr09gCGa2tBnUs5LQv5PL60lGtK3WwUW53Kh34lmQZelovA/s481/bit-per-second-network.jpg)
 
-#### Ethernet Standartları
+### Ethernet Standartları
 
 **Ethernet**Standartları **IEEE 802.3** Tarafından Belirlenmektedir.  
 **IEEE**Açılımı: Instute of Electrical and Electronics Engineers.
 
 [![ethernet standartları]({{ '/assets/images/tutorials/ccna/day-02/image-06.jpg' | relative_url }})](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHr7k4PkulOswZH39px9R6zmqGp86kY5cJpV7euqLhNIqWCd7Rcu8QFQFbW-8gz62zfMJFSIBj2kvduiPoCQ9MSo0Q6dWhbNc0kennwzt_WAnYmIAzr3J2tKbvBd6iU4q-BQuKN78pdnEaqMjiWu5IOQnuMk1OzNkHAwuY69pWSEMF5PUoPEk4ppVbgQ/s634/ethernet-standartlari.jpg)
 
-### UTP Kablo
+## UTP Kablo
 
 [![utp kablosu]({{ '/assets/images/tutorials/ccna/day-02/image-07.jpg' | relative_url }})](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfgf4mq_w2GGTDGzah5cCW28FRwOWQFxmCUOmyGV4pBYSowKOv2ERKTKOEgzDG1Su3Qqpgol91-2nlcRbnxukI1iaeKXLV8UdqLE8x1g8z1YO-PTcu5tapcp8wLAAsTuj2eFj9s-5SXV_zp_SskUxrNhAEalQsZionwx67X9gucv8SL33bHjcGHCR3PQ/s681/utp-kablo.jpg)
 
@@ -82,7 +82,7 @@ Daha Önce Gördüğümüz Ethernet Standartlarının Tümü Aslında 8 Pinin / 
 
 [![ethernet standartları kablo çift ve tel kullanımı]({{ '/assets/images/tutorials/ccna/day-02/image-09.jpg' | relative_url }})](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsG3GiQVNMd7rYAoDeAf_cl2xOTVyB2nlxxA4Mfd_rUKeLQ2jYSnqJeFsl63Yxx1_Iubsnr9Z2pSzLgK1e5kciTiW3G8XJit_zwVtp1Wyq9_i63BUfNWSHFksJZN7tIevbTLhXKQuF6rVJ2Djqir3tPKFCzns_fDno_G85cLjWPA-kThOepMgjAC3eIQ/s378/ethernet-standart-tel-ve-cift-kullanimi.jpg)
 
-#### UTP Kablo (10BASE-T, 100BASE-T)
+### UTP Kablo (10BASE-T, 100BASE-T)
 
 Bir Hostu FastEthernet Bağlantısı Olan Bir Switch'e Bağladığımızı Düşünelim.
 
@@ -106,7 +106,7 @@ Switch, Veri İletmek için Pin 3 ve 6 Kullanır ve Host 3 ve 6 Pinlerden Veri A
 
 Resmin Sol Tarafında PC, Router, Wireless Access Point, Firewall Bulunabilir. Sağ Tarafta ise Switch, Hub Bulunabilir.
 
-##### Straight-Through Cable
+#### Straight-Through Cable
 
 Kablonun Bir Ucundaki Bir Pin, Diğer Uçtaki Aynı Pine Doğrudan Bağlanır (Örnek: Pin 1 - Pin 1, Pin 2 - Pin 2, ..).
 
@@ -118,7 +118,7 @@ Yukarıdaki Resimde Sağ Taraftaki Switch Yerine Router Koyarsak Ne Olur? Router
 
 [![]({{ '/assets/images/tutorials/ccna/day-02/image-14.jpg' | relative_url }})](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_V60cdd7w5BdzNG2lCHs89ewbvrUqXBYoqcP_0XYKHWG3LPR-5xcqfgHdEBcX9rfQ9SSVZ4p-shSzXfeJKYed6zfu52bdhUza82Sh9ku9XCPeZTuOpATWh_LLYP3JCKV6rC5xnJUv927lEon7nij007UbB4IF0EyaSjljj7eZdzi7byj2a_Hfqo-HQQ/s691/resim5.jpg)
 
-##### Crossover Cable
+#### Crossover Cable
 
 Kablonun Bir Ucundaki Pin, Diğer Uçtaki Aynı Pine Doğrudan **Bağlanmaz.**
 
@@ -136,7 +136,7 @@ Günümüzde Çoğu Modern Ağ Cihazı, Straight Through Cable ve Crossover Cabl
 
 **Auto MDI-X**Nedir?****Cihazların Komşularının Hangi Pinlerden Veri İlettiğini Otomatik Olarak Algılamasına ve Ardından Veri İletmek ve Almak için Hangi Pinleri Kullanacaklarını Ayarlamasına İzin Verir. Daha Sonra Normal Şekilde Veri Alışverişi Yapabilirler.
 
-#### UTP Kablo (1000BASE-T, 10GBASE-T)
+### UTP Kablo (1000BASE-T, 10GBASE-T)
 
 1000BASE-T ve 10GBASE-T için 4 Çift (Pair) / 8 Tel (Wire) Kullanılır.
 
@@ -146,13 +146,13 @@ Pin 1 ve 2, Pin 3 ve 6, Pin 4 ve 5, Pin 7 ve 8 Kullanılır.
 
 Her Bir Çift Veri Alma ve Veri Gönderme için Özel Değildir. Her Bir Çift Hem Veri Alıp, Hem Gönderebilir. Bu, Çok Daha Yüksek Hızlarda Çalışabilmelerinin Bir Nedenidir.
 
-### Fiber-Optik Kablo
+## Fiber-Optik Kablo
 
 [![]({{ '/assets/images/tutorials/ccna/day-02/image-19.jpg' | relative_url }})](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhePchXqpyh3pvPQGPjq7z9dEM8XSBLMJfC-vpe8lf4CsFlRjNy1LlE5j9m62FPpacIpUM3hOxZg3zI7CsWkcvMi_1UJXhAcGmf49EaeNBYcTr3whIDEAWVz-MhoS8rrw3uMoYct0nKi3fYBdygBB2om8NqLS6CI02tNxQphzWX4JWClhCN8hgUH0btBA/s531/resim7.jpg)
 
 Üstekki Cihaz Bir Cisco Switch, Alttaki Cihaz ise Cisco Router'dır. Sarı Alan UTP RJ-45 Portlarını Temsil Eder.
 
-#### SFP Transceiver
+### SFP Transceiver
 
 [![fiber optik kablo sfp]({{ '/assets/images/tutorials/ccna/day-02/image-20.jpg' | relative_url }})](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUwlInnhh-7_BOZ2fE7LAwp-IitxKuiK1AoDlghMjaU4KK6XsRnL8YNys7d4w54UoPi5FdSNSBqxd1WPpB5N2Ouf9BX-4_HoPUK_uKyGWgO8yMRScZGimyvGRI9f0k9Pol9HHj71YP_RnjUWQiApPiAQg6QIwAsPW76eFTznSaknVCpNj0LP7TbS-cGw/s378/fiber-optik-kablo-sfp.jpg)
 
@@ -170,7 +170,7 @@ Her İki Uçta da İki Konnektör Olduğuna Dikkat Edin. Bunun Nedeni, Veri İle
 
 [![]({{ '/assets/images/tutorials/ccna/day-02/image-22.jpg' | relative_url }})](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjM-6cQT2JaTaMEF4CuXa0gSurhUfyh1zZ0UFgnrt4rF-_EJnjZMupMUOBdsZEXPzgCiC6l8gUDKMOwb7qOaLgEtPC38Fd8OKBIIyYmewvIG62g7UX9tpRmLHZ9O0n3caz8LoVsMLC9IFESVV4ki59_QnCGihaGh3fI2TXWsboWhe576rBsW9jYOWb6nw/s682/resim8.jpg)
 
-#### Fiber-Optik Kablo Yapısı
+### Fiber-Optik Kablo Yapısı
 
 [![fiber optik kablo yapısı]({{ '/assets/images/tutorials/ccna/day-02/image-23.jpg' | relative_url }})](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEim3tHovsrOc3V5YyKJZCLEyV3U4txvH3b5roJYebTuU8s_DMIBIxcngKIk4JNSicssSvuGN_XXR0Ys0xPi5PJKo4NJb1QpQExzX5AHgiUbxkbxnv5ZctiwBGd4pigTjMOl_vWq_FJSz4h_E8Ty5gVkjCPxJZD74NHehHOza3yVqu9HaKeWsVujyN259A/s317/fiber-optik-kablo-yapisi.jpg)
 
@@ -179,9 +179,9 @@ Her İki Uçta da İki Konnektör Olduğuna Dikkat Edin. Bunun Nedeni, Veri İle
 3. **Protective Buffer.**
 4. **Kablonun Dış Kılıfı.**
 
-#### Fiber-Optik Kablo Türleri
+### Fiber-Optik Kablo Türleri
 
-##### Multimode Fiber
+#### Multimode Fiber
 
 [![multimode fiber kablo yapısı]({{ '/assets/images/tutorials/ccna/day-02/image-24.jpg' | relative_url }})](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9ZhJ2JAiK-2eEl7D5TBCncNKSuQJImZNvWCb0i82wEfJra8ysD1bdz2oHZwBM8j8E2OSpW2p9-X5HjpGwnKdRt5p5APfst-79ynaMtM9TXmvWcfUtIm-G1hzZBAqUltn6RtDWLmF-vs-5Har_XBMyzLTOXZKQqr3WSzNueYAnt0XCrUeEhodPNurvig/s311/multimode-fiber.jpg)
 
@@ -195,7 +195,7 @@ Merkez, **Fiberglass Core** ve Mavi Alan **Cladding'i** Temsil Eder.
 
 - Single Mode Fiberden Daha Ucuzdur (Daha Ucuz **LED Tabanlı SFP Transceiver** Nedeniyle).
 
-##### Single Mode Fiber
+#### Single Mode Fiber
 
 [![singlemode fiber kablo yapısı]({{ '/assets/images/tutorials/ccna/day-02/image-25.jpg' | relative_url }})](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyTdsspqAS1LDzQyJeJkXm8E1IHCc498pLJHPWqlGlC--gCuitWCn0KvZOmWMBFcjFpLf1HO3WgGuZrbGMkoBZQ4P6MVRB5HVcztJ2JqjAw90739M5kArnnNkCrxABnqECKpzknuIGEAFhDK9cnLQzqWqeTTharNv_tejsEgonn_k16XjjhvMOJwshgA/s303/singlemode-fiber.jpg)
 
@@ -207,11 +207,11 @@ Merkez, **Fiberglass Core** ve Mavi Alan **Cladding'i** Temsil Eder.
 
 - Multimode Fiberden Daha Pahalı (Daha Pahalı **Lazer Tabanlı SFP Transceiver** Nedeniyle).
 
-#### Fiber-Optik Kablo Standartları
+### Fiber-Optik Kablo Standartları
 
 [![fiber optik kablo standartları]({{ '/assets/images/tutorials/ccna/day-02/image-26.jpg' | relative_url }})](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgF5NlbbPRqvREq0Ic18Pm5QtuyXc8KGVQ4aPGMRX3ysNDHmuVW2uXq5yOwnXsKDnj_krbl65rvuKBRKWMmr6Bt8t5_UzeofBicj99WHNkWAqrCZZW3QwRppQHzactqpHdXTusPgn2dH157qDaQPJ-6taXBPh94JcHWTNcKKByz2adpQgVxiJwBmSov1Q/s594/fiber-optik-kablo-standartlari.jpg)
 
-### UTP ve Fiber Optik Kablo Karşılaştırması
+## UTP ve Fiber Optik Kablo Karşılaştırması
 
 [![utp ve fiber optik kablo karşılaştırması]({{ '/assets/images/tutorials/ccna/day-02/image-27.jpg' | relative_url }})](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhaOWqOopQT4H7Gew2NKqYCVdcJEwgysc-K9X8hpZkvuhzOm9Qishk9cCzbvg8Tl_0g_4xYe7-U_j8yFoA_ljNF1Vitg5JXOVJQ_bJe_jn4PjUluTCeuuee2o-Lcy5EjJHEx2XcYsRl8COMex0No2OFb6ZUWe-zmlcr8DQvtsOBIAXx8FcU8JSF5X6mQ/s701/utp-vs-fiberoptic.jpg)
 
