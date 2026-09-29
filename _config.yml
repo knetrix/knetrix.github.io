@@ -3,3 +3,7 @@ url: "https://knetrix.github.io"
 baseurl: ""
 markdown: kramdown
 permalink: pretty
+
+collections:
+  tutorials:
+    output: true
