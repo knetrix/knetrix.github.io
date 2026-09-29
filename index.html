@@ -561,46 +561,12 @@
       .hero-visual .hero-art {
         width: min(100%, 440px);
       }
-      #about.about-layout {
-        display: block;
-        max-width: 940px;
-        margin: 18px auto 30px;
-        padding: 30px clamp(22px, 5vw, 58px);
-        text-align: center;
-        position: relative;
-        overflow: hidden;
-        border: 1px solid color-mix(in srgb, var(--blue) 28%, var(--line));
-        border-radius: 24px;
-        background:
-          radial-gradient(
-            ellipse at 50% 0%,
-            color-mix(in srgb, var(--blue) 12%, transparent),
-            transparent 65%
-          ),
-          var(--surface);
-        box-shadow: 0 18px 55px #0002;
-      }
-      #about .section-title {
-        justify-content: center;
-        margin: 0 0 18px;
-      }
-      #about .section-title:before {
-        order: 0;
-      }
-      #about .section-title h2 {
-        font-size: clamp(27px, 3vw, 36px);
-      }
-      #about .about-copy p,
-      #about .about-copy p:first-child {
-        font-size: clamp(15px, 1.4vw, 17px);
-        line-height: 1.8;
-        color: var(--muted);
-        font-weight: 700;
-        margin: 0 0 12px;
-      }
-      #about .about-copy p:last-child {
-        margin-bottom: 0;
-      }
+      
+      
+      
+      
+      
+      
       .jumpnav {
         justify-content: center;
         align-items: center;
@@ -623,11 +589,7 @@
         .hero-visual .hero-art {
           width: min(72vw, 260px);
         }
-        #about.about-layout {
-          margin: 18px auto 22px;
-          padding: 24px 20px;
-          border-radius: 20px;
-        }
+        
         .jumpnav {
           gap: 8px;
           padding: 14px 0 18px;
@@ -645,78 +607,22 @@
       }
 
       /* About body copy: quiet weight and the same solid surface as the other content cards. */
-      #about.about-layout {
-        background: var(--surface);
-        box-shadow: 0 18px 55px #0002;
-      }
-      #about .about-copy p,
-      #about .about-copy p:first-child {
-        font-weight: 400;
-      }
+      
+      
 
       /* About: quiet, editorial text treatment without a card surface. */
-      #about.about-layout {
-        max-width: 900px;
-        margin: 32px auto 42px;
-        padding: 8px 0 0;
-        text-align: left;
-        overflow: visible;
-        border: 0;
-        border-radius: 0;
-        background: transparent;
-        box-shadow: none;
-      }
-      #about .section-title {
-        justify-content: flex-start;
-        margin: 0 0 20px;
-      }
-      #about .section-title:before {
-        order: 0;
-      }
-      #about .section-title h2 {
-        font-size: clamp(27px, 3vw, 35px);
-        letter-spacing: -0.04em;
-      }
-      #about .about-copy {
-        max-width: 76ch;
-      }
-      #about .about-copy p,
-      #about .about-copy p:first-child {
-        font-family: Georgia, "Times New Roman", serif;
-        font-size: clamp(17px, 1.45vw, 19px);
-        line-height: 1.85;
-        letter-spacing: 0.005em;
-        color: var(--muted);
-        font-weight: 400;
-        margin: 0 0 15px;
-      }
-      #about .about-copy p:last-child {
-        margin-bottom: 0;
-      }
-      @media (max-width: 760px) {
-        #about.about-layout {
-          margin: 24px auto 32px;
-          padding: 4px 0 0;
-        }
-        #about .about-copy p,
-        #about .about-copy p:first-child {
-          font-size: 17px;
-          line-height: 1.8;
-        }
-      }
+      
+      
+      
+      
+      
+      
+      
+      
 
       /* Align About with the shared left edge of the main content sections. */
-      #about.about-layout {
-        max-width: none;
-        margin: 32px 0 42px;
-        padding: 8px 0 0;
-      }
-      @media (max-width: 760px) {
-        #about.about-layout {
-          margin: 24px 0 32px;
-          padding: 4px 0 0;
-        }
-      }
+      
+      
 
       /* Tighten the vertical rhythm around the hero and About section. */
       .hero {
@@ -725,35 +631,18 @@
         padding-bottom: 10px;
         gap: clamp(24px, 4vw, 60px);
       }
-      #about.about-layout {
-        margin-top: 14px;
-        margin-bottom: 24px;
-        padding-top: 4px;
-      }
+      
       @media (max-width: 760px) {
         .hero {
           gap: 12px;
           padding-top: 22px;
           padding-bottom: 4px;
         }
-        #about.about-layout {
-          margin-top: 10px;
-          margin-bottom: 18px;
-          padding-top: 0;
-        }
+        
       }
 
       /* Restore the site’s original sans-serif typography in About. */
-      #about .about-copy p,
-      #about .about-copy p:first-child {
-        font-family:
-          Inter,
-          ui-sans-serif,
-          system-ui,
-          -apple-system,
-          sans-serif;
-        letter-spacing: 0;
-      }
+      
 
       /* Justify project descriptions while preserving card layout. */
       #projects .project-body p {
@@ -762,10 +651,7 @@
       }
 
       /* Justify skill description copy, not headings. */
-      #skills .skill-card p {
-        text-align: justify;
-        text-justify: inter-word;
-      }
+      
 
       #skills .skill-grid p {
         text-align: justify;
@@ -773,7 +659,7 @@
       }
     
       /* Justify Experience job descriptions only; leave headings and content unchanged. */
-      #experience .timeline .job p { text-align: justify; text-justify: inter-word; }
+      
     
       /* Experience uses the same surface, outline and elevation as project cards. */
       #experience .experience-card {
@@ -819,7 +705,7 @@
       <section class="hero">
         <div class="hero-intro">
           <div class="hero-copy">
-            <h1 class="" data-i="0">👋 Hi, I'm Mustafa.</h1>
+            <h1 data-i="0">👋 Hi, I'm Mustafa.</h1>
             <p class="role" data-i="1">IoT - Network Engineer</p>
             <a
               aria-label="GitHub"
@@ -868,60 +754,60 @@
         ><a data-i="37" href="#languages">Foreign Languages</a>
       </nav>
       <section class="content" id="skills">
-        <div class="section-title"><h2 class="" data-i="8">Skills</h2></div>
+        <div class="section-title"><h2 data-i="8">Skills</h2></div>
         <div class="skill-grid">
           <article class="skill">
-            <p class="" data-i="9">
+            <p data-i="9">
               Embedded Systems: ESP32, ESP8266, Raspberry Pi Pico W / Raspberry
               Pi Zero 2 W / Raspberry Pi 4, Arduino Uno / Nano
             </p>
           </article>
           <article class="skill">
-            <p class="" data-i="10">
+            <p data-i="10">
               Internet of Things: MQTT (Mosquitto), NodeRED &amp; Grafana &amp;
               Blynk, Adafruit, IFTTT, PlatformIO, Fritzing
             </p>
           </article>
           <article class="skill">
-            <p class="" data-i="11">
+            <p data-i="11">
               Virtualization: Proxmox, Docker (OrbStack), VMware Fusion
             </p>
           </article>
           <article class="skill">
-            <p class="" data-i="12">
+            <p data-i="12">
               Computer Networks: Cisco (CCNA), GNS3, Wireshark
             </p>
           </article>
           <article class="skill">
-            <p class="" data-i="13">Programming Languages: Python, C++</p>
+            <p data-i="13">Programming Languages: Python, C++</p>
           </article>
           <article class="skill">
-            <p class="" data-i="14">
+            <p data-i="14">
               Databases: InfluxDB3, PostgreSQL, SQLite, BaaS (Supabase,
               InsForge) Vector DBs (Pinecone, Zvec), NocoDB
             </p>
           </article>
           <article class="skill">
-            <p class="" data-i="15">
+            <p data-i="15">
               Version Control System (VCS): Git, Github
             </p>
           </article>
           <article class="skill">
-            <p class="" data-i="16">Linux: Diet-Pi, Ubuntu Server</p>
+            <p data-i="16">Linux: Diet-Pi, Ubuntu Server</p>
           </article>
           <article class="skill">
-            <p class="" data-i="17">
+            <p data-i="17">
               Self-Hosted: Nginx Proxy Manager, Tailscale, Cloudflared, Cosmos,
               Dokploy
             </p>
           </article>
           <article class="skill">
-            <p class="" data-i="18">Web: HTML/CSS/JavaScript</p>
+            <p data-i="18">Web: HTML/CSS/JavaScript</p>
           </article>
         </div>
       </section>
       <section class="content" id="projects">
-        <div class="section-title"><h2 class="" data-i="19">Projects</h2></div>
+        <div class="section-title"><h2 data-i="19">Projects</h2></div>
         <div class="project-grid">
           <article class="project">
             <div aria-hidden="true" class="project-art">
@@ -943,7 +829,7 @@
                   >Physical Security System With ESP32</a
                 >
               </h3>
-              <p class="" data-i="21">
+              <p data-i="21">
                 Engineered an ESP32-based security system integrating motion,
                 gas, and laser sensors with a servo lock, streaming telemetry
                 via MQTT to a self-hosted Node-RED/InfluxDB3/Grafana stack with
@@ -972,7 +858,7 @@
                   >Secure Data Collection and Access With ESP8266</a
                 >
               </h3>
-              <p class="" data-i="23">
+              <p data-i="23">
                 Developed an ESP8266-based IoT system that encrypts BME280
                 environmental telemetry and Bluetooth-controlled LED states
                 prior to MQTT transmission into a self-hosted Node-RED/InfluxDB3
@@ -985,14 +871,14 @@
       </section>
       <section class="content" id="education">
         <div class="section-title">
-          <h2 class="" data-i="24">Education - Certificates</h2>
+          <h2 data-i="24">Education - Certificates</h2>
         </div>
         <div class="education">
-          <p class="" data-i="25">
+          <p data-i="25">
             <strong>Computer Engineering, Duzce University</strong> (GPA: 3.25 /
             4) 2015 – 2021
           </p>
-          <p class="" data-i="26">
+          <p data-i="26">
             <a
               href="https://www.credly.com/badges/69612a93-4f92-4882-9b61-5d82ead6628d"
               rel="noopener noreferrer"
@@ -1005,30 +891,30 @@
       </section>
       <section class="content" id="experience">
         <div class="section-title">
-          <h2 class="" data-i="27">Experience</h2>
+          <h2 data-i="27">Experience</h2>
         </div>
         <div class="experience-card">
 <div class="timeline">
           <article class="job">
-            <h3 class="" data-i="28">
+            <h3 data-i="28">
               Independent Developer 08/2023 – Present
             </h3>
           </article>
           <article class="job">
-            <h3 class="" data-i="29">
+            <h3 data-i="29">
               National Defence University - Naval Academy, Lecturer (Military
               Service) 10/2022 – 08/2023 | Istanbul
             </h3>
-            <p class="" data-i="30">
+            <p data-i="30">
               Delivered lecture courses in C++, Python, Computer Networks, and
               Data Mining to undergraduate cadets.
             </p>
           </article>
           <article class="job">
-            <h3 class="" data-i="31">
+            <h3 data-i="31">
               Duzce University, Software Intern - 06/2021 – 07/2021
             </h3>
-            <p class="" data-i="32">
+            <p data-i="32">
               Engineered a machine learning model in Python for digit
               recognition, successfully training and validating it using the
               MNIST dataset. Built an interactive web interface with Gradio,
@@ -1036,10 +922,10 @@
             </p>
           </article>
           <article class="job">
-            <h3 class="" data-i="34">
+            <h3 data-i="34">
               IGDAS, Software Intern 07/2018 – 08/2018 | Istanbul
             </h3>
-            <p class="" data-i="35">
+            <p data-i="35">
               Received training on SAP systems and IT processes. Developed basic
               database integrations and applications with C#.
             </p>
@@ -1049,10 +935,10 @@
 </section>
       <section class="content" id="languages">
         <div class="section-title">
-          <h2 class="" data-i="37">Foreign Languages</h2>
+          <h2 data-i="37">Foreign Languages</h2>
         </div>
         <div class="language-card">
-          <p class="" data-i="38">English — B1 (Intermediate)</p>
+          <p data-i="38">English — B1 (Intermediate)</p>
         </div>
       </section>
     </main>
