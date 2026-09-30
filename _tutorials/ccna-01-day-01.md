@@ -7,13 +7,6 @@ excerpt: "CCNA networking devices: networks, nodes, clients, servers, switches, 
 permalink: /tutorials/ccna/day-01/
 ---
 
-Yazı İçeriği
-
-1. [Network Nedir?](#Network_Nedir)[Düğüm (Node) Nedir?](#D___m__Node__Nedir)[Client](#Client)[Server](#Server)
-2. [Switch](#Switch)
-3. [Router](#Router)
-4. [Firewall](#Firewall)
-
 Bu Yazıda Modern Ağlarda Kullanılan Cihaz Türleri, Ağdaki İşlevleri ve Farklılıkları Hakkında Bilgi Edineceğiz.
 
 ## Network Nedir?
