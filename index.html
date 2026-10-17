@@ -4,9 +4,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width,initial-scale=1" name="viewport" />
     <title>Knetrix</title>
-    <script defer src="/app.js" data-host-url="https://cloud.knetrix.com" data-website-id="34e12d70-a0ab-4d52-a83d-94cd60c899ff"></script>
-    <script defer src="/rec.js" data-host-url="https://cloud.knetrix.com" data-website-id="34e12d70-a0ab-4d52-a83d-94cd60c899ff"></script>
-    <script>
+  <script>
       try {
         document.documentElement.dataset.theme =
           localStorage.getItem("knetrix-theme") ||
@@ -14,6 +12,20 @@
             ? "light"
             : "dark");
       } catch (e) {}
+
+      // --- Umami Stealth Yükleyici ---
+      (function() {
+        function loadTracker(src) {
+          var el = document.createElement('script');
+          el.defer = true;
+          el.src = src;
+          el.setAttribute('data-website-id', '34e12d70-a0ab-4d52-a83d-94cd60c899ff');
+          el.setAttribute('data-host-url', 'https://cloud.knetrix.com');
+          document.head.appendChild(el);
+        }
+        loadTracker('/app.js');
+        loadTracker('/rec.js');
+      })();
     </script>
     <style>
       :root {
